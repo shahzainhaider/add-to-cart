@@ -1,0 +1,107 @@
+@font-face {
+    font-family: ourfont;
+    src: url(Dash.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cartdiv {
+    width: 30%;
+    border: 2px solid gray;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 5px;
+    height: fit-content;
+    margin: 1%;
+    /* max-height: 100vh; */
+}
+
+img {
+    display: flex;
+    width: 50%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 0px auto;
+    width: 120px;
+    display: block;
+    height: 30px;
+    font-weight: 800;
+    font-family: ourfont;
+    font-size: 14px;
+}
+
+#btn {
+    margin-top: 15px
+}
+
+.maincon {
+    display: flex;
+}
+
+.getcartmaincon {
+    border: 2px solid red;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    margin-left: 70%;
+    overflow-y: auto
+}
+
+.getcartmaincon h2 {
+    text-align: center;
+}
+
+.h21 {
+    display: inline;
+    margin-left: 7%;
+}
+
+.h32 {
+    margin-left: 14%;
+    display: inline;
+}
+
+.h33 {
+    margin-left: 11%;
+    margin-right: 20%;
+    display: inline;
+}
+
+.h34 {
+    margin-left: -15%;
+    display: inline;
+}
+
+.cartdiv button {
+    width: 40%;
+    margin-top: 15px;
+}
+
+#getcart {
+    overflow-y: auto;
+    height: 82%;
+    border: 1px solid red;
+    padding-top: 5%;
+}
+
+#addcart {
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    flex-wrap: wrap
+}
+
+.quan {
+    margin-left: 13%;
+    margin-right: 5%;
+}
+.delall{
+    margin-top: 4%;
+}
